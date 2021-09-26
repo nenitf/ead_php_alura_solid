@@ -38,3 +38,5 @@ docker-compose up
 ---
 
 - **Single Responsability Principle** (SRP): uma classe deve ter somente um motivo para mudar (pois só possui uma responsabilidade)
+- **Open/Closed Principle** (OCP): entidades de software, sejam classes, módulos, funções, qualquer coisa, conjunto de classes, devem ser abertas para expansão, porém fechadas para modificação
+    > Open chest surgery is not needed when putting a coat 
