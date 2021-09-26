@@ -28,3 +28,13 @@ docker-compose up
 
 > Para acessar o container use ``docker-compose exec app bash`` ou execute os scripts diretamente pelo Docker ``docker-compose exec app php public/arquivo-script.php``
 
+## Anotações
+
+- **Coesão** em uma classe é quando ela faz somente o que faz sentido (responsabilidade correta)
+- **Encapsulamento**, pilar da OO, esconde (priva) implementação mas disponibiliza uma chamada aberta (publica)
+- **Acoplamento** ocorre quando uma classe conhece/depende de outra. Se uma dessas dependências mudar pode afetar a classe que as conhece.
+    > Dependa de abstrações e não de implementações
+
+---
+
+- **Single Responsability Principle** (SRP): uma classe deve ter somente um motivo para mudar (pois só possui uma responsabilidade)
