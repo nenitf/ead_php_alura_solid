@@ -8,12 +8,10 @@ docker-compose up -d
 ```
 > Caso queira, ao final da configuração, pare o Docker com ``docker-compose down``
 
-2. Baixe as dependências do composer
+2. Crie o autoloader
 ```sh
-docker-compose exec app composer install
+docker-compose exec app composer du
 ```
-
-> Para criar autoload sem instalar as dependências ``docker-compose exec app composer du``
 
 ## Execução
 
@@ -45,3 +43,6 @@ docker-compose up
     > Seja q(x) uma propriedade que se pode provar do objeto x do tipo T. Então q(y) também é possível provar para o objeto y do tipo S, sendo S um subtipo de T.
 
     > If itlooks like a duck, quacks like a duce, but needs batteries, you probably have the wrong abstraction
+- **Interface Segregation Principle** (ISP): uma classe não pode ser forçada a depender de métodos que ela não utilizará
+- **Dependency Inversion Principle** (DIP): 1) módulos de alto nível não devem depender de módulos de baixo nível, e que ambos devem depender de abstrações e 2) abstrações não devem depender de implementações, implementações devem depender de abstrações
+    > Would you solder a lamp directly to the electrical wiring in a wall?
