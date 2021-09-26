@@ -38,5 +38,10 @@ docker-compose up
 ---
 
 - **Single Responsability Principle** (SRP): uma classe deve ter somente um motivo para mudar (pois só possui uma responsabilidade)
+    > Just because you can, doesn't mean you should
 - **Open/Closed Principle** (OCP): entidades de software, sejam classes, módulos, funções, qualquer coisa, conjunto de classes, devem ser abertas para expansão, porém fechadas para modificação
     > Open chest surgery is not needed when putting a coat 
+- **Liskov Substitution Principle** (LSP): classes filhas nunca devem infringir definições de tipo ou de funcionalidade da classe pai
+    > Seja q(x) uma propriedade que se pode provar do objeto x do tipo T. Então q(y) também é possível provar para o objeto y do tipo S, sendo S um subtipo de T.
+
+    > If itlooks like a duck, quacks like a duce, but needs batteries, you probably have the wrong abstraction
